@@ -1,0 +1,6 @@
+<VBoxmaxHeight="-Infinity"maxWidth="-Infinity"minHeight="-Infinity"minWidth="-Infinity"prefHeight="400.0"prefWidth="600.0"xmlns="http://javafx.com/javafx/8"xmlns:fx="http://javafx.com/fxml/1" <span style="color: #0000ff;">fx:controller="com.example.javafx.SimpleUIController</span>">
+  <children>
+    <Button <span style="color: #0000ff;">fx:id</span>="button"mnemonicParsing="false"text="Button"/>
+    <Label <span style="color: #0000ff;">fx:id</span>="label"prefHeight="29.0"prefWidth="63.0"text="Label"/>
+  </children>
+</VBox>

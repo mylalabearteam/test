@@ -1,0 +1,22 @@
+<AnchorPane 
+  xmlns:fx="http://javafx.com/fxml"
+  xmlns="http://javafx.com/javafx"
+  fx:controller="com.baeldung.view.SearchController">
+    <children>
+
+        <HBox id="HBox" alignment="CENTER" spacing="5.0">
+            <children>
+                <Label text="Search Text:"/>
+                <TextField fx:id="searchField"/>
+                <Button fx:id="searchButton"/>
+            </children>
+        </HBox>
+
+        <VBox fx:id="dataContainer"
+              AnchorPane.leftAnchor="10.0"
+              AnchorPane.rightAnchor="10.0"
+              AnchorPane.topAnchor="50.0">
+        </VBox>
+
+    </children>
+</AnchorPane>
